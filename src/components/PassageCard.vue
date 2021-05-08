@@ -76,9 +76,11 @@ export default {
       })
     },
     deletePassage(lid, pid) {
+
       var l = null;
       var p = null;
       this.BmobOption.PsList.deletePList(lid,(res)=>{
+          location.reload()
           this.$emit("deleteDraft",lid)
           l = res
           delresult(l, p)

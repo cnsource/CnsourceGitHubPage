@@ -14,7 +14,7 @@
             </p>
           </div>
           <div class="text-right">
-            <span class="time p-1 rounded">{{ item.createdAt }}</span>
+            <span class="time p-1 rounded">{{ item.ftime }}</span>
           </div>
         </div>
       </div>

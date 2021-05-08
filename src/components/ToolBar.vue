@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="z-index: 88888">
     <nav class="navbar navbar-expand-sm navbar-light bg-toolbar pt-0 pb-0 pl-3 pr-3">
       <a class="brand" :href="loginpath">Cnsource</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
